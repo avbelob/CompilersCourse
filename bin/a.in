@@ -1,14 +1,15 @@
 class MyClass {
+// я комментарий, меня здесь нет
     public static void main() {
-        int zero;
+        int zero; // это zero
         int a;
         int b;
-        zero = 0;
+        zero = /ку-ку/ 0;
         a = 1;
-        System.out.println(a);
+        System.out.println( /нужно больше комментариев в странных местах/ a);
         b = 2;
         System.out.println(a + b);
-        System.out.println(a && zero);
+        System.out.println(a || zero);
 
         int [] array;
         array = new int[10];
