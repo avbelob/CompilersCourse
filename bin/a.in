@@ -1,0 +1,25 @@
+class MyClass {
+  public static void main() {
+   int a;
+   int b;
+   a = 100;
+   b = -100;
+   System.out.println(b);
+   int [] arr;
+   arr = new int[a + b + 8];
+   System.out.println(arr.length);
+   arr[0] = a + a;
+   System.out.println(array[0]);
+
+   while (a > 0) {
+     System.out.println(a);
+     a = a - 10;
+   }
+
+   if(a == 0) {
+     System.out.println(a);
+   } else {
+     System.out.println(b);
+   }
+}
+}
