@@ -115,5 +115,3 @@ add_custom_target(
 )
 
 add_dependencies(ScopesExecutable VisitorTree)
-
-

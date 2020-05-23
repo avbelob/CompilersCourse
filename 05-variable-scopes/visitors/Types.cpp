@@ -180,15 +180,18 @@ void Types::Visit(PrintlnStatement* statement) {}
 void Types::Visit(AssertStatement *statement) {}
 
 void Types::Visit(IfStatement* statement) {
+  statement->expr_->Accept(this);
   statement->statement_->Accept(this);
 }
 
 void Types::Visit(IfElseStatement* statement) {
+  statement->expr_->Accept(this);
   statement->pos_statement_->Accept(this);
   statement->neg_statement_->Accept(this);
 }
 
 void Types::Visit(WhileStatement* statement) {
+  statement->expr_->Accept(this);
   statement->statement_->Accept(this);
 }
 

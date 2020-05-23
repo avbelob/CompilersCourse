@@ -29,7 +29,6 @@ void Table::CreateVariable(Symbol symbol) {
   if (values_.find(symbol) == values_.end()) {
     values_[symbol] = std::stack<std::shared_ptr<Object>>();
   }
-  //values_[symbol].push(std::make_shared<UninitObject>());
 }
 
 void Table::BeginScope() {
